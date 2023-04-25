@@ -29,7 +29,7 @@ const UserMenu = () => {
             transition
             cursor-pointer
          ">
-            Airbnb your home
+            Airbnb your House
 
          </div>
 
