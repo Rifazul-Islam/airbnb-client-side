@@ -4,7 +4,6 @@ import React,{ useCallback,useState } from 'react';
 import Avatar from '../Avatar';
 import MenuItem from './MenuItem';
 import useRentModal from '@/app/hooks/useRentModal';
-import useRegisterModal from '@/app/hooks/useRegisterModal';
 
 
 const UserMenu = () => {
@@ -84,7 +83,7 @@ const UserMenu = () => {
              right-0
              top-12
              text-sm
-            ">
+			             ">
 					<div className=" flex flex-col cursor-pointer">
 						<>
 							<MenuItem
