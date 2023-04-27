@@ -4,6 +4,7 @@ import React,{ useCallback,useState } from 'react';
 import Avatar from '../Avatar';
 import MenuItem from './MenuItem';
 import useRentModal from '@/app/hooks/useRentModal';
+import useRegisterModal from '@/app/hooks/useRegisterModal';
 
 
 const UserMenu = () => {

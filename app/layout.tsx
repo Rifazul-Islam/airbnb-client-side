@@ -1,13 +1,12 @@
 import{Nunito} from "next/font/google";
 import './globals.css'
 import Navbar from "./components/navbar/Navbar";
-import RentModal from "./components/modals/RentModal";
 export const metadata = {
   title: 'airbnb',
-  description: 'airbnb test',
+  description: 'Airbnb close',
 }
 
-const font = Nunito({subsets:["latin"]})
+const font = Nunito({subsets:["latin"] });
 
 export default function RootLayout({
   children,
@@ -16,11 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
-      <body className={font.className}>
+    <body className={font.className}>
          
          <Navbar/>
-		<RentModal />
+
         {children}
         
         </body>
