@@ -1,6 +1,7 @@
 import{Nunito} from "next/font/google";
 import './globals.css'
 import Navbar from "./components/navbar/Navbar";
+import RentModal from "./components/modals/RentModal";
 export const metadata = {
   title: 'airbnb',
   description: 'airbnb test',
@@ -19,7 +20,7 @@ export default function RootLayout({
       <body className={font.className}>
          
          <Navbar/>
-
+		<RentModal />
         {children}
         
         </body>
