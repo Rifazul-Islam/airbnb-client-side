@@ -6,12 +6,13 @@ import RegisterModal from "./components/Modals/RegisterModal";
 import ToasterProvider from "./provider/ToasterProvider";
 import LoginModal from "./components/Modals/LoginModal";
 import getCurrentUser from "./actions/getCurrentUser";
+
 export const metadata = {
   title: 'airbnb',
-  description: 'Airbnb close',
+  description: 'airbnb test',
 }
 
-const font = Nunito({subsets:["latin"] });
+const font = Nunito({subsets:["latin"]})
 
 export default async function  RootLayout({
 
@@ -25,7 +26,8 @@ export default async function  RootLayout({
     const currentUser = await getCurrentUser();
   return (
     <html lang="en">
-    <body className={font.className}>
+
+      <body className={font.className}>
          
         <ClientOnly>
           
@@ -39,6 +41,8 @@ export default async function  RootLayout({
 
         
 
+         <Navbar/>
+	
         {children}
         
         </body>

@@ -18,6 +18,7 @@
     "bcrypt": "^5.1.0",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "leaflet": "^1.9.3",
     "next": "13.3.1",
 
     "next-auth": "^4.22.1",
@@ -27,13 +28,20 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.9",
-    "react-hot-toast": "^2.4.0",
+    "react-leaflet": "^4.2.1",
+    "react-select": "^5.7.2",
+    "world-countries": "^4.0.0",
+
     "react-icons": "^4.8.0",
     "typescript": "5.0.4",
     "zustand": "^4.3.7"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/bcrypt": "^5.0.0",
+=======
+    "@types/leaflet": "^1.9.3",
+>>>>>>> f72ee3f03b1023fba3db143ea8876b0511493d76
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.1"
